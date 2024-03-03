@@ -1,0 +1,83 @@
+@media only screen and (max-width:600px) {
+
+
+    .main-bar {
+        background-color: #eeeeee;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+
+
+    }
+
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: static;
+
+
+    }
+
+    .img_container {
+        width: inherit;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: inherit;
+
+    }
+
+    .links button {
+        width: inherit;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .metarial {
+        width: inherit;
+    }
+    .facilites{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .facilites img{
+        width: 500px;
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    .donations img:hover{
+        width: 460px;
+        height: 340px;
+    }
+    .donations img {
+        width: 450px;
+        height: 330px;
+    }
+    .donations button{
+        width: 440px;
+    }
+    .footer>div{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .links-img{
+        display: flex;
+        align-items: center;
+    }
+
+}

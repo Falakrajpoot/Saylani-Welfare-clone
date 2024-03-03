@@ -1,0 +1,315 @@
+body {
+    margin: 0px;
+}
+
+
+.main-bar {
+    background-color: #eeeeee;
+    height: 40px;
+    /* display: flex;
+    justify-content: space-around;
+    border: 1px solid;
+    width: 100%;
+    border: none;
+    flex-wrap: wrap; */
+
+}
+
+/*.hidden {
+     width: 20px; 
+}*/
+
+/*.info {
+    width: 50%;
+ display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap; 
+}*/
+
+.email {
+    width: 20px;
+    height: 20px;
+
+}
+
+.phone {
+    width: 25px;
+    height: 25px;
+}
+
+.dropdown>select {
+    height: 50px;
+    position: relative;
+    top: -5px;
+    border: none;
+
+}
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+    z-index: 100px;
+    border-bottom: 1px solid lightgray;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.links a {
+    text-decoration: none;
+    color: #000000;
+    margin-top: 10px;
+    margin-right: 5px;
+
+}
+
+.links a:active {
+    color: #0066b3;
+}
+
+links a:link {
+    color: #0066b3;
+}
+
+.links a:hover {
+    text-decoration: underline;
+
+}
+
+.nav-bar img {
+    height: 50px;
+}
+
+.nav-bar button {
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    color: #ffffffff;
+}
+
+.nav-bar button:hover {
+    transform: scale(1.0);
+}
+
+.donate {
+    background-color: #0066b3;
+    border: 1px solid #0066b3;
+}
+
+.sponsor {
+    border: 1px solid #0066b3;
+    background-color: #99ca3c;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.image>img {
+    width: 500px;
+}
+
+.metarial {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.metarial>h1>span {
+    color: #99ca3c;
+}
+
+.metarial button {
+    width: 130px;
+    padding: 10px;
+}
+
+.About-us {
+    margin-top: 20px;
+    border: 1px solid;
+}
+
+.About-us h1 {
+    text-align: center;
+}
+
+.facilites {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.facilites img {
+    width: 200px;
+    height: 200px;
+    transition: all 2s;
+}
+
+.facilites img:hover {
+    transform: scale(1.1);
+
+}
+
+.donations {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.donations div {
+    transition: all 2s;
+}
+
+.donations div:hover {
+    transform: scale(1.04);
+
+}
+
+.donations img {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    opacity: 20px;
+    transition: all 1s;
+}
+
+
+.donations h3 {
+    width: 390px;
+    height: 20px;
+    border-radius: 10px;
+    position: relative;
+    top: -97px;
+    left: 6px;
+    color: #ffffffff;
+    font-size: 1.2em;
+}
+
+.donations button {
+    width: 390px;
+    height: 40px;
+    border-radius: 5px;
+    position: relative;
+    top: -73px;
+    left: 6px;
+    color: #ffffffff;
+    background-color: #99ca3c;
+    border: none;
+}
+
+.footer {
+    background-color: #424242;
+    background-image: url(img/bg.png);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer>div {
+
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    padding-top: 55px;
+
+}
+
+.links-img {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+
+}
+
+
+
+
+.links img {
+    width: 30px;
+}
+
+.links-img .logo {
+    width: 200px;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2px;
+    /* margin-left: 10px; */
+}
+
+.about-links {
+    display: flex;
+    flex-direction: column;
+    color: #ffffffff;
+}
+
+.explore-links {
+    display: flex;
+    flex-direction: column;
+    color: #ffffffff;
+}
+
+.contact-me {
+    display: flex;
+    flex-direction: column;
+    color: #ffffffff;
+}
+
+.footer a {
+    color: #ffffffff;
+    text-decoration: none;
+}
+
+.ACCA {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    /* width: 1200px;
+    margin-left: 50px;
+     */
+}
+
+.ACCA img {
+    width: 40px;
+}
+
+.ip span {
+    color: #0066b3;
+}
+
+.ip {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    /* width: 1200px;
+    margin-left: 50px; */
+}
+
+.Trust {
+    color: #fff;
+}
